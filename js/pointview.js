@@ -185,7 +185,7 @@ glyphs.pointview = function() {
                 // return colorScale(d.isAnomaly); 
             })
             .style('opacity', function(d) {
-                return d.isAnomaly ? 0.8 : 0.5;
+                return d.isAnomaly ? 0.9 : 0.5;
             })
             .on("mouseover", dispatch.mouseover)
             .on("mouseout", dispatch.mouseout)
